@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import ComplexState from './componenets/ComplexState';
+import Count from './componenets/Count';
+import CurrentTime from './componenets/CurrentTime';
+import DigitalClock from './componenets/DigitalClock';
+import Events from './componenets/Events';
+import Form from './componenets/Form';
+import StateWithSpread from './componenets/StateWithSpread';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Count/>
+      <CurrentTime/> */}
+      {/* <DigitalClock/>
+      <Events/> */}
+
+      {/* <Form /> */}
+      {/* <ComplexState/> */}
+
+      <StateWithSpread/>
+    </>
+
   );
 }
 
